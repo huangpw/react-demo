@@ -15,6 +15,12 @@ export default function BlogMenu({ children }: any) {
         <div className={styles.item}>
           <SvgIcon name="front" size={22}></SvgIcon>
         </div>
+        <div className={styles.item}>
+          <SvgIcon name="mobile" size={22}></SvgIcon>
+        </div>
+        <div className={styles.item}>
+          <SvgIcon name="后端" size={22}></SvgIcon>
+        </div>
       </div>
       <div className={styles.child}></div>
       <div className="content">{children}</div>
